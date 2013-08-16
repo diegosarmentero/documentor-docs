@@ -1,0 +1,169 @@
+.. link:
+.. description:
+.. tags:
+.. date: 2013/08/16 00:00:00
+.. title: Documentor
+.. slug: docdump
+
+.. class:: alert alert-info pull-top
+
+.. contents::
+
+
+*Module:* `docdump.py </listings/docdump.py.html>`_ API
+=========================================================
+
+No description.
+
+
+
+*Imports:*
+------------
+- `datetime </listings/docdump.py.html#19>`_
+
+- `os </listings/docdump.py.html#18>`_
+
+- `templates </listings/docdump.py.html#21>`_
+
+
+
+
+
+*Class:* `DocDump(object) </listings/docdump.py.html#listingsdocdumppy-35>`_
+------------------------------------------------------------------------------
+
+.. code:: python
+
+       class DocDump(object):
+
+| Create a restructured text file with the representation obtained.
+
+
+*Attributes*
+~~~~~~~~~~~~~~
+- `__classes [at ln:49] </listings/docdump.py.html#49>`_
+
+- `__functions [at ln:50] </listings/docdump.py.html#50>`_
+
+- `__modules [at ln:48] </listings/docdump.py.html#48>`_
+
+- `date [at ln:41] </listings/docdump.py.html#41>`_
+
+- `files_folder [at ln:42] </listings/docdump.py.html#42>`_
+
+- `output [at ln:44] </listings/docdump.py.html#44>`_
+
+- `posts_folder [at ln:43] </listings/docdump.py.html#43>`_
+
+- `projectname [at ln:39] </listings/docdump.py.html#39>`_
+
+
+*Function:* `__init__(projectname, output) [at ln:38] </listings/docdump.py.html#listingsdocdumppy-38>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def __init__(projectname, output):
+
+
+No description.
+
+
+----
+
+*Function:* `_add_classes(symbols, htmlpath, docpath) [at ln:207] </listings/docdump.py.html#listingsdocdumppy-207>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _add_classes(symbols, htmlpath, docpath):
+
+| Add the class with the class content and style.
+
+
+----
+
+*Function:* `_add_function(symbol, htmlpath, docpath) [at ln:171] </listings/docdump.py.html#listingsdocdumppy-171>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _add_function(symbol, htmlpath, docpath):
+
+| Add the function with the function content and style.
+
+
+----
+
+*Function:* `_add_global_attributes(symbols, htmlpath) [at ln:138] </listings/docdump.py.html#listingsdocdumppy-138>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _add_global_attributes(symbols, htmlpath):
+
+| Add the global attributes to the Module Documentation.
+
+
+----
+
+*Function:* `_add_global_functions(symbols, htmlpath, docpath) [at ln:157] </listings/docdump.py.html#listingsdocdumppy-157>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _add_global_functions(symbols, htmlpath, docpath):
+
+| Add the global functions to the Module Documentation.
+
+
+----
+
+*Function:* `_add_imports(symbols, htmlpath) [at ln:111] </listings/docdump.py.html#listingsdocdumppy-111>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _add_imports(symbols, htmlpath):
+
+| Add the imports to the Module Documentation.
+
+
+----
+
+*Function:* `_create_post() [at ln:100] </listings/docdump.py.html#listingsdocdumppy-100>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _create_post():
+
+| Create a post to show in the index page.
+
+
+----
+
+*Function:* `create_html_sections() [at ln:259] </listings/docdump.py.html#listingsdocdumppy-259>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def create_html_sections():
+
+| Create the sections to access: Modules, Classes and Functions.
+
+
+----
+
+*Function:* `process_symbols(symbols, filepath, relpath) [at ln:52] </listings/docdump.py.html#listingsdocdumppy-52>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def process_symbols(symbols, filepath, relpath):
+
+| Process the symbols to create the documentation file.
+
+
+
+

@@ -1,0 +1,207 @@
+.. link:
+.. description:
+.. tags:
+.. date: 2013/08/16 00:00:00
+.. title: Documentor
+.. slug: analyzer
+
+.. class:: alert alert-info pull-top
+
+.. contents::
+
+
+*Module:* `analyzer.py </listings/analyzer.py.html>`_ API
+===========================================================
+
+No description.
+
+
+
+*Imports:*
+------------
+- `_ast </listings/analyzer.py.html#18>`_
+
+- `ast </listings/analyzer.py.html#19>`_
+
+- `docdump </listings/analyzer.py.html#23>`_
+
+- `os </listings/analyzer.py.html#20>`_
+
+- `shutil </listings/analyzer.py.html#21>`_
+
+
+
+*Global Attributes:*
+----------------------
+- `_map_type [at ln:25] </listings/analyzer.py.html#25>`_
+
+
+----
+
+
+*Global Functions:*
+---------------------
+
+*Function:* `get_python_files(path) [at ln:38] </listings/analyzer.py.html#listingsanalyzerpy-38>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def get_python_files(path):
+
+| Return a dict structure containing the info inside a folder.
+
+
+----
+
+
+*Class:* `Analyzer(object) </listings/analyzer.py.html#listingsanalyzerpy-50>`_
+---------------------------------------------------------------------------------
+
+.. code:: python
+
+       class Analyzer(object):
+
+| Explore recursively the project folder and scan the info of each file.
+
+
+*Attributes*
+~~~~~~~~~~~~~~
+- `dump [at ln:57] </listings/analyzer.py.html#57>`_
+
+- `listings_folder [at ln:56] </listings/analyzer.py.html#56>`_
+
+- `output [at ln:55] </listings/analyzer.py.html#55>`_
+
+- `project [at ln:54] </listings/analyzer.py.html#54>`_
+
+- `structure [at ln:61] </listings/analyzer.py.html#61>`_
+
+
+*Function:* `__init__(project, output, projectname) [at ln:53] </listings/analyzer.py.html#listingsanalyzerpy-53>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def __init__(project, output, projectname):
+
+
+No description.
+
+
+----
+
+*Function:* `_parse_assign(symbol) [at ln:154] </listings/analyzer.py.html#listingsanalyzerpy-154>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _parse_assign(symbol):
+
+| Parse assign and extract the info from the node.
+
+
+----
+
+*Function:* `_parse_class(symbol) [at ln:165] </listings/analyzer.py.html#listingsanalyzerpy-165>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _parse_class(symbol):
+
+| Parse class and extract the info from the node.
+
+
+----
+
+*Function:* `_parse_function(symbol) [at ln:194] </listings/analyzer.py.html#listingsanalyzerpy-194>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _parse_function(symbol):
+
+| Parse function and extract the info from the node.
+
+
+----
+
+*Function:* `_parse_imports(module) [at ln:248] </listings/analyzer.py.html#listingsanalyzerpy-248>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _parse_imports(module):
+
+| Parse imports and extract the info from the node.
+
+
+----
+
+*Function:* `expand_attribute(attribute) [at ln:134] </listings/analyzer.py.html#listingsanalyzerpy-134>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def expand_attribute(attribute):
+
+| Expand the node to obtain the expanded representation.
+
+
+----
+
+*Function:* `obtain_symbols(source, filename=str) [at ln:100] </listings/analyzer.py.html#listingsanalyzerpy-100>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def obtain_symbols(source, filename=str):
+
+| Parse a module code to obtain: Classes, Functions and Assigns.
+
+
+----
+
+*Function:* `parse_file(filepath, relpath) [at ln:79] </listings/analyzer.py.html#listingsanalyzerpy-79>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def parse_file(filepath, relpath):
+
+| Parse the file and create a representation with all the info about:
+| - Imports
+| - Classes
+| - Functions
+| - Attributes
+| - Decorators
+| - etc
+
+
+----
+
+*Function:* `parse_folder(folderpath, relpath) [at ln:66] </listings/analyzer.py.html#listingsanalyzerpy-66>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def parse_folder(folderpath, relpath):
+
+| Parse the folders and files contained inside folderpath.
+
+
+----
+
+*Function:* `scan() [at ln:59] </listings/analyzer.py.html#listingsanalyzerpy-59>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def scan():
+
+| Initialize the scan process.
+
+
+
+

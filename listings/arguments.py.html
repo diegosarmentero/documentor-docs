@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="utf-8">
+    <meta name="description" content="arguments.py">
+    <meta name="author" content="Documentor">
+    <title>arguments.py | Documentor Documentation</title>
+    
+            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+            <link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+    
+    
+    
+</head>
+<body>
+<!-- Menubar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+            <a class="brand" href="../">
+            Documentor Documentation
+            </a>
+            <!-- Everything you want hidden at 940px or less, place within here -->
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+            <li><a href="../documentor_modules.html">Modules</a>
+            </li><li><a href="../documentor_classes.html">Classes</a>
+            </li><li><a href="../documentor_functions.html">Functions</a>
+
+                </li></ul>
+                <ul class="nav pull-right">
+                
+                
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Menubar -->
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    <div class="span2"></div>
+    <div class="span8">
+    
+<ul class="breadcrumb">
+        <li><a href=".">/listings</a>
+        </li><li><a href="#">/arguments.py.html</a>
+</li></ul>
+<ul class="unstyled">
+</ul>
+    <table class="codetable"><tr><td class="linenos"><div class="linenodiv"><pre><a href="arguments.py.html#listingsargumentspy-1"> 1</a>
+<a href="arguments.py.html#listingsargumentspy-2"> 2</a>
+<a href="arguments.py.html#listingsargumentspy-3"> 3</a>
+<a href="arguments.py.html#listingsargumentspy-4"> 4</a>
+<a href="arguments.py.html#listingsargumentspy-5"> 5</a>
+<a href="arguments.py.html#listingsargumentspy-6"> 6</a>
+<a href="arguments.py.html#listingsargumentspy-7"> 7</a>
+<a href="arguments.py.html#listingsargumentspy-8"> 8</a>
+<a href="arguments.py.html#listingsargumentspy-9"> 9</a>
+<a href="arguments.py.html#listingsargumentspy-10">10</a>
+<a href="arguments.py.html#listingsargumentspy-11">11</a>
+<a href="arguments.py.html#listingsargumentspy-12">12</a>
+<a href="arguments.py.html#listingsargumentspy-13">13</a>
+<a href="arguments.py.html#listingsargumentspy-14">14</a>
+<a href="arguments.py.html#listingsargumentspy-15">15</a>
+<a href="arguments.py.html#listingsargumentspy-16">16</a>
+<a href="arguments.py.html#listingsargumentspy-17">17</a>
+<a href="arguments.py.html#listingsargumentspy-18">18</a>
+<a href="arguments.py.html#listingsargumentspy-19">19</a>
+<a href="arguments.py.html#listingsargumentspy-20">20</a>
+<a href="arguments.py.html#listingsargumentspy-21">21</a>
+<a href="arguments.py.html#listingsargumentspy-22">22</a>
+<a href="arguments.py.html#listingsargumentspy-23">23</a>
+<a href="arguments.py.html#listingsargumentspy-24">24</a>
+<a href="arguments.py.html#listingsargumentspy-25">25</a>
+<a href="arguments.py.html#listingsargumentspy-26">26</a>
+<a href="arguments.py.html#listingsargumentspy-27">27</a>
+<a href="arguments.py.html#listingsargumentspy-28">28</a>
+<a href="arguments.py.html#listingsargumentspy-29">29</a>
+<a href="arguments.py.html#listingsargumentspy-30">30</a>
+<a href="arguments.py.html#listingsargumentspy-31">31</a>
+<a href="arguments.py.html#listingsargumentspy-32">32</a>
+<a href="arguments.py.html#listingsargumentspy-33">33</a>
+<a href="arguments.py.html#listingsargumentspy-34">34</a>
+<a href="arguments.py.html#listingsargumentspy-35">35</a>
+<a href="arguments.py.html#listingsargumentspy-36">36</a>
+<a href="arguments.py.html#listingsargumentspy-37">37</a>
+<a href="arguments.py.html#listingsargumentspy-38">38</a>
+<a href="arguments.py.html#listingsargumentspy-39">39</a>
+<a href="arguments.py.html#listingsargumentspy-40">40</a>
+<a href="arguments.py.html#listingsargumentspy-41">41</a>
+<a href="arguments.py.html#listingsargumentspy-42">42</a>
+<a href="arguments.py.html#listingsargumentspy-43">43</a>
+<a href="arguments.py.html#listingsargumentspy-44">44</a>
+<a href="arguments.py.html#listingsargumentspy-45">45</a>
+<a href="arguments.py.html#listingsargumentspy-46">46</a>
+<a href="arguments.py.html#listingsargumentspy-47">47</a>
+<a href="arguments.py.html#listingsargumentspy-48">48</a>
+<a href="arguments.py.html#listingsargumentspy-49">49</a>
+<a href="arguments.py.html#listingsargumentspy-50">50</a>
+<a href="arguments.py.html#listingsargumentspy-51">51</a>
+<a href="arguments.py.html#listingsargumentspy-52">52</a>
+<a href="arguments.py.html#listingsargumentspy-53">53</a>
+<a href="arguments.py.html#listingsargumentspy-54">54</a>
+<a href="arguments.py.html#listingsargumentspy-55">55</a>
+<a href="arguments.py.html#listingsargumentspy-56">56</a>
+<a href="arguments.py.html#listingsargumentspy-57">57</a>
+<a href="arguments.py.html#listingsargumentspy-58">58</a>
+<a href="arguments.py.html#listingsargumentspy-59">59</a>
+<a href="arguments.py.html#listingsargumentspy-60">60</a>
+<a href="arguments.py.html#listingsargumentspy-61">61</a>
+<a href="arguments.py.html#listingsargumentspy-62">62</a>
+<a href="arguments.py.html#listingsargumentspy-63">63</a>
+<a href="arguments.py.html#listingsargumentspy-64">64</a>
+<a href="arguments.py.html#listingsargumentspy-65">65</a>
+<a href="arguments.py.html#listingsargumentspy-66">66</a>
+<a href="arguments.py.html#listingsargumentspy-67">67</a>
+<a href="arguments.py.html#listingsargumentspy-68">68</a>
+<a href="arguments.py.html#listingsargumentspy-69">69</a>
+<a href="arguments.py.html#listingsargumentspy-70">70</a>
+<a href="arguments.py.html#listingsargumentspy-71">71</a></pre></div></td><td class="code"><div class="code"><pre><a name="listingsargumentspy-1"></a><span class="c"># -*- coding: utf-8 -*-</span>
+<a name="listingsargumentspy-2"></a><span class="c">#</span>
+<a name="listingsargumentspy-3"></a><span class="c"># This file is part of Documentor</span>
+<a name="listingsargumentspy-4"></a><span class="c"># (https://github.com/diegosarmentero/documentor).</span>
+<a name="listingsargumentspy-5"></a><span class="c">#</span>
+<a name="listingsargumentspy-6"></a><span class="c"># Documentor is free software; you can redistribute it and/or modify</span>
+<a name="listingsargumentspy-7"></a><span class="c"># it under the terms of the GNU General Public License as published by</span>
+<a name="listingsargumentspy-8"></a><span class="c"># the Free Software Foundation; either version 3 of the License, or</span>
+<a name="listingsargumentspy-9"></a><span class="c"># any later version.</span>
+<a name="listingsargumentspy-10"></a><span class="c">#</span>
+<a name="listingsargumentspy-11"></a><span class="c"># Documentor is distributed in the hope that it will be useful,</span>
+<a name="listingsargumentspy-12"></a><span class="c"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<a name="listingsargumentspy-13"></a><span class="c"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<a name="listingsargumentspy-14"></a><span class="c"># GNU General Public License for more details.</span>
+<a name="listingsargumentspy-15"></a><span class="c">#</span>
+<a name="listingsargumentspy-16"></a><span class="c"># You should have received a copy of the GNU General Public License</span>
+<a name="listingsargumentspy-17"></a><span class="c"># along with Documentor; If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+<a name="listingsargumentspy-18"></a>
+<a name="listingsargumentspy-19"></a><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">absolute_import</span>
+<a name="listingsargumentspy-20"></a>
+<a name="listingsargumentspy-21"></a><span class="kn">import</span> <span class="nn">argparse</span>
+<a name="listingsargumentspy-22"></a>
+<a name="listingsargumentspy-23"></a>
+<a name="listingsargumentspy-24"></a><span class="n">usage</span> <span class="o">=</span> <span class="p">(</span><span class="s">"$documentor -p project_path -o output_path "</span>
+<a name="listingsargumentspy-25"></a>         <span class="s">"[--projectname name, --email address]"</span><span class="p">)</span>
+<a name="listingsargumentspy-26"></a>
+<a name="listingsargumentspy-27"></a><span class="n">epilog</span> <span class="o">=</span> <span class="p">(</span><span class="s">"This program comes with ABSOLUTELY NO WARRANTY."</span>
+<a name="listingsargumentspy-28"></a>          <span class="s">"This is free software, and you are welcome to redistribute "</span>
+<a name="listingsargumentspy-29"></a>          <span class="s">"it under certain conditions; for details see LICENSE.txt."</span><span class="p">)</span>
+<a name="listingsargumentspy-30"></a>
+<a name="listingsargumentspy-31"></a>
+<a name="listingsargumentspy-32"></a><span class="k">def</span> <span class="nf">parse</span><span class="p">():</span>
+<a name="listingsargumentspy-33"></a>    <span class="sd">"""Parse the arguments received from the command line."""</span>
+<a name="listingsargumentspy-34"></a>    <span class="k">global</span> <span class="n">usage</span>
+<a name="listingsargumentspy-35"></a>    <span class="k">global</span> <span class="n">epilog</span>
+<a name="listingsargumentspy-36"></a>    <span class="n">project</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="listingsargumentspy-37"></a>    <span class="n">projectname</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="listingsargumentspy-38"></a>    <span class="n">output</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="listingsargumentspy-39"></a>    <span class="n">email</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="listingsargumentspy-40"></a>    <span class="n">serve</span> <span class="o">=</span> <span class="bp">False</span>
+<a name="listingsargumentspy-41"></a>    <span class="n">deploy</span> <span class="o">=</span> <span class="bp">None</span>
+<a name="listingsargumentspy-42"></a>
+<a name="listingsargumentspy-43"></a>    <span class="k">try</span><span class="p">:</span>
+<a name="listingsargumentspy-44"></a>        <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="n">usage</span><span class="p">,</span> <span class="n">epilog</span><span class="o">=</span><span class="n">epilog</span><span class="p">)</span>
+<a name="listingsargumentspy-45"></a>
+<a name="listingsargumentspy-46"></a>        <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">'-p'</span><span class="p">,</span> <span class="s">'--project'</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s">'project'</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span>
+<a name="listingsargumentspy-47"></a>            <span class="n">help</span><span class="o">=</span><span class="s">'Create documentation for this project'</span><span class="p">,</span>
+<a name="listingsargumentspy-48"></a>            <span class="n">default</span><span class="o">=</span><span class="s">"."</span><span class="p">)</span>
+<a name="listingsargumentspy-49"></a>        <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">'-o'</span><span class="p">,</span> <span class="s">'--output'</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s">'Output Folder'</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span>
+<a name="listingsargumentspy-50"></a>            <span class="n">help</span><span class="o">=</span><span class="s">'Place to locate the outpur result'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+<a name="listingsargumentspy-51"></a>        <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">'--projectname'</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s">'projectname'</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span>
+<a name="listingsargumentspy-52"></a>            <span class="n">help</span><span class="o">=</span><span class="p">(</span><span class="s">'Project Name, if not provided the name is generated'</span>
+<a name="listingsargumentspy-53"></a>                  <span class="s">'using: documentor_PATHBASENAME'</span><span class="p">),</span> <span class="n">default</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+<a name="listingsargumentspy-54"></a>        <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">'--email'</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s">'email'</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span>
+<a name="listingsargumentspy-55"></a>            <span class="n">help</span><span class="o">=</span><span class="s">'email address of the project'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+<a name="listingsargumentspy-56"></a>        <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">'--serve'</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s">'False/True: default False'</span><span class="p">,</span>
+<a name="listingsargumentspy-57"></a>            <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">'Serve Documentation site'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<a name="listingsargumentspy-58"></a>        <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">'-d'</span><span class="p">,</span> <span class="s">'--deploy'</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s">'git-repository'</span><span class="p">,</span>
+<a name="listingsargumentspy-59"></a>            <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s">'Git Repository to deploy content'</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+<a name="listingsargumentspy-60"></a>
+<a name="listingsargumentspy-61"></a>        <span class="n">opts</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+<a name="listingsargumentspy-62"></a>        <span class="n">project</span> <span class="o">=</span> <span class="n">opts</span><span class="o">.</span><span class="n">project</span>
+<a name="listingsargumentspy-63"></a>        <span class="n">projectname</span> <span class="o">=</span> <span class="n">opts</span><span class="o">.</span><span class="n">projectname</span>
+<a name="listingsargumentspy-64"></a>        <span class="n">output</span> <span class="o">=</span> <span class="n">opts</span><span class="o">.</span><span class="n">output</span>
+<a name="listingsargumentspy-65"></a>        <span class="n">email</span> <span class="o">=</span> <span class="n">opts</span><span class="o">.</span><span class="n">email</span>
+<a name="listingsargumentspy-66"></a>        <span class="n">serve</span> <span class="o">=</span> <span class="n">opts</span><span class="o">.</span><span class="n">serve</span>
+<a name="listingsargumentspy-67"></a>        <span class="n">deploy</span> <span class="o">=</span> <span class="n">opts</span><span class="o">.</span><span class="n">deploy</span>
+<a name="listingsargumentspy-68"></a>    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">reason</span><span class="p">:</span>
+<a name="listingsargumentspy-69"></a>        <span class="k">print</span><span class="p">(</span><span class="s">"Args couldn't be parsed."</span><span class="p">)</span>
+<a name="listingsargumentspy-70"></a>        <span class="k">print</span><span class="p">(</span><span class="n">reason</span><span class="p">)</span>
+<a name="listingsargumentspy-71"></a>    <span class="k">return</span> <span class="p">(</span><span class="n">project</span><span class="p">,</span> <span class="n">projectname</span><span class="p">,</span> <span class="n">output</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">serve</span><span class="p">,</span> <span class="n">deploy</span><span class="p">)</span>
+</pre></div>
+</td></tr></table>
+
+    </div>
+    </div>
+    <!--End of body content-->
+</div>
+<div class="footerbox">
+    Contents © 2013         <a href="mailto:None">Documentor</a> - Powered by         <a href="http://nikola.ralsina.com.ar">Nikola</a> and <a href="https://github.com/diegosarmentero/documentor">Documentor</a>
+</div>
+
+
+
+            <script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+            <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+</body>
+</html>

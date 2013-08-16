@@ -1,0 +1,59 @@
+.. link:
+.. description:
+.. tags:
+.. date: 2013/08/16 00:00:00
+.. title: Documentor
+.. slug: templates
+
+.. class:: alert alert-info pull-top
+
+.. contents::
+
+
+*Module:* `templates.py </listings/templates.py.html>`_ API
+=============================================================
+| Templates to generate the restructured text results.
+
+
+
+*Global Attributes:*
+----------------------
+- `ARGUMENTS [at ln:48] </listings/templates.py.html#48>`_
+
+- `ATTRIBUTES [at ln:45] </listings/templates.py.html#45>`_
+
+- `BASE_FILE [at ln:21] </listings/templates.py.html#21>`_
+
+- `CLASS [at ln:38] </listings/templates.py.html#38>`_
+
+- `CODE [at ln:39] </listings/templates.py.html#39>`_
+
+- `DECORATORS [at ln:49] </listings/templates.py.html#49>`_
+
+- `FUNCTION [at ln:46] </listings/templates.py.html#46>`_
+
+- `GLOBAL_ATTRIBUTES [at ln:36] </listings/templates.py.html#36>`_
+
+- `GLOBAL_FUNCTIONS [at ln:37] </listings/templates.py.html#37>`_
+
+- `HTML_FILES_BODY [at ln:145] </listings/templates.py.html#145>`_
+
+- `HTML_FILES_FOOTER [at ln:148] </listings/templates.py.html#148>`_
+
+- `HTML_FILES_HEADER [at ln:80] </listings/templates.py.html#80>`_
+
+- `IMPORTS [at ln:35] </listings/templates.py.html#35>`_
+
+- `LIST_LINK_ITEM [at ln:50] </listings/templates.py.html#50>`_
+
+- `MODULE [at ln:34] </listings/templates.py.html#34>`_
+
+- `NO_DESCRIPTION [at ln:47] </listings/templates.py.html#47>`_
+
+- `PARENTS [at ln:44] </listings/templates.py.html#44>`_
+
+- `POST [at ln:54] </listings/templates.py.html#54>`_
+
+
+
+

@@ -1,0 +1,85 @@
+.. link:
+.. description:
+.. tags:
+.. date: 2013/08/16 00:00:00
+.. title: Documentor
+.. slug: documentor
+
+.. class:: alert alert-info pull-top
+
+.. contents::
+
+
+*Module:* `documentor.py </listings/documentor.py.html>`_ API
+===============================================================
+
+No description.
+
+
+
+*Imports:*
+------------
+- `analyzer </listings/documentor.py.html#21>`_
+
+- `arguments </listings/documentor.py.html#22>`_
+
+- `new_conf </listings/documentor.py.html#23>`_
+
+- `os </listings/documentor.py.html#18>`_
+
+- `subprocess </listings/documentor.py.html#19>`_
+
+
+
+
+*Global Functions:*
+---------------------
+
+*Function:* `_deploy(output, deploy) [at ln:37] </listings/documentor.py.html#listingsdocumentorpy-37>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _deploy(output, deploy):
+
+| Deploy the site to Github Pages.
+
+
+----
+
+*Function:* `_get_project_name(projectname, project) [at ln:28] </listings/documentor.py.html#listingsdocumentorpy-28>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _get_project_name(projectname, project):
+
+| Build a project name or use the one provided by the user.
+
+
+----
+
+*Function:* `_serve(output) [at ln:57] </listings/documentor.py.html#listingsdocumentorpy-57>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def _serve(output):
+
+| Serve the application in localhost.
+
+
+----
+
+*Function:* `document() [at ln:67] </listings/documentor.py.html#listingsdocumentorpy-67>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def document():
+
+| Run the commands selected by the user with Documentor.
+
+
+
+

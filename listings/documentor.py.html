@@ -1,0 +1,292 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="utf-8">
+    <meta name="description" content="documentor.py">
+    <meta name="author" content="Documentor">
+    <title>documentor.py | Documentor Documentation</title>
+    
+            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+            <link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+        <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+    
+    
+    
+</head>
+<body>
+<!-- Menubar -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+            <a class="brand" href="../">
+            Documentor Documentation
+            </a>
+            <!-- Everything you want hidden at 940px or less, place within here -->
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+            <li><a href="../documentor_modules.html">Modules</a>
+            </li><li><a href="../documentor_classes.html">Classes</a>
+            </li><li><a href="../documentor_functions.html">Functions</a>
+
+                </li></ul>
+                <ul class="nav pull-right">
+                
+                
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Menubar -->
+<div class="container-fluid" id="container-fluid">
+    <!--Body content-->
+    <div class="row-fluid">
+    <div class="span2"></div>
+    <div class="span8">
+    
+<ul class="breadcrumb">
+        <li><a href=".">/listings</a>
+        </li><li><a href="#">/documentor.py.html</a>
+</li></ul>
+<ul class="unstyled">
+</ul>
+    <table class="codetable"><tr><td class="linenos"><div class="linenodiv"><pre><a href="documentor.py.html#listingsdocumentorpy-1">  1</a>
+<a href="documentor.py.html#listingsdocumentorpy-2">  2</a>
+<a href="documentor.py.html#listingsdocumentorpy-3">  3</a>
+<a href="documentor.py.html#listingsdocumentorpy-4">  4</a>
+<a href="documentor.py.html#listingsdocumentorpy-5">  5</a>
+<a href="documentor.py.html#listingsdocumentorpy-6">  6</a>
+<a href="documentor.py.html#listingsdocumentorpy-7">  7</a>
+<a href="documentor.py.html#listingsdocumentorpy-8">  8</a>
+<a href="documentor.py.html#listingsdocumentorpy-9">  9</a>
+<a href="documentor.py.html#listingsdocumentorpy-10"> 10</a>
+<a href="documentor.py.html#listingsdocumentorpy-11"> 11</a>
+<a href="documentor.py.html#listingsdocumentorpy-12"> 12</a>
+<a href="documentor.py.html#listingsdocumentorpy-13"> 13</a>
+<a href="documentor.py.html#listingsdocumentorpy-14"> 14</a>
+<a href="documentor.py.html#listingsdocumentorpy-15"> 15</a>
+<a href="documentor.py.html#listingsdocumentorpy-16"> 16</a>
+<a href="documentor.py.html#listingsdocumentorpy-17"> 17</a>
+<a href="documentor.py.html#listingsdocumentorpy-18"> 18</a>
+<a href="documentor.py.html#listingsdocumentorpy-19"> 19</a>
+<a href="documentor.py.html#listingsdocumentorpy-20"> 20</a>
+<a href="documentor.py.html#listingsdocumentorpy-21"> 21</a>
+<a href="documentor.py.html#listingsdocumentorpy-22"> 22</a>
+<a href="documentor.py.html#listingsdocumentorpy-23"> 23</a>
+<a href="documentor.py.html#listingsdocumentorpy-24"> 24</a>
+<a href="documentor.py.html#listingsdocumentorpy-25"> 25</a>
+<a href="documentor.py.html#listingsdocumentorpy-26"> 26</a>
+<a href="documentor.py.html#listingsdocumentorpy-27"> 27</a>
+<a href="documentor.py.html#listingsdocumentorpy-28"> 28</a>
+<a href="documentor.py.html#listingsdocumentorpy-29"> 29</a>
+<a href="documentor.py.html#listingsdocumentorpy-30"> 30</a>
+<a href="documentor.py.html#listingsdocumentorpy-31"> 31</a>
+<a href="documentor.py.html#listingsdocumentorpy-32"> 32</a>
+<a href="documentor.py.html#listingsdocumentorpy-33"> 33</a>
+<a href="documentor.py.html#listingsdocumentorpy-34"> 34</a>
+<a href="documentor.py.html#listingsdocumentorpy-35"> 35</a>
+<a href="documentor.py.html#listingsdocumentorpy-36"> 36</a>
+<a href="documentor.py.html#listingsdocumentorpy-37"> 37</a>
+<a href="documentor.py.html#listingsdocumentorpy-38"> 38</a>
+<a href="documentor.py.html#listingsdocumentorpy-39"> 39</a>
+<a href="documentor.py.html#listingsdocumentorpy-40"> 40</a>
+<a href="documentor.py.html#listingsdocumentorpy-41"> 41</a>
+<a href="documentor.py.html#listingsdocumentorpy-42"> 42</a>
+<a href="documentor.py.html#listingsdocumentorpy-43"> 43</a>
+<a href="documentor.py.html#listingsdocumentorpy-44"> 44</a>
+<a href="documentor.py.html#listingsdocumentorpy-45"> 45</a>
+<a href="documentor.py.html#listingsdocumentorpy-46"> 46</a>
+<a href="documentor.py.html#listingsdocumentorpy-47"> 47</a>
+<a href="documentor.py.html#listingsdocumentorpy-48"> 48</a>
+<a href="documentor.py.html#listingsdocumentorpy-49"> 49</a>
+<a href="documentor.py.html#listingsdocumentorpy-50"> 50</a>
+<a href="documentor.py.html#listingsdocumentorpy-51"> 51</a>
+<a href="documentor.py.html#listingsdocumentorpy-52"> 52</a>
+<a href="documentor.py.html#listingsdocumentorpy-53"> 53</a>
+<a href="documentor.py.html#listingsdocumentorpy-54"> 54</a>
+<a href="documentor.py.html#listingsdocumentorpy-55"> 55</a>
+<a href="documentor.py.html#listingsdocumentorpy-56"> 56</a>
+<a href="documentor.py.html#listingsdocumentorpy-57"> 57</a>
+<a href="documentor.py.html#listingsdocumentorpy-58"> 58</a>
+<a href="documentor.py.html#listingsdocumentorpy-59"> 59</a>
+<a href="documentor.py.html#listingsdocumentorpy-60"> 60</a>
+<a href="documentor.py.html#listingsdocumentorpy-61"> 61</a>
+<a href="documentor.py.html#listingsdocumentorpy-62"> 62</a>
+<a href="documentor.py.html#listingsdocumentorpy-63"> 63</a>
+<a href="documentor.py.html#listingsdocumentorpy-64"> 64</a>
+<a href="documentor.py.html#listingsdocumentorpy-65"> 65</a>
+<a href="documentor.py.html#listingsdocumentorpy-66"> 66</a>
+<a href="documentor.py.html#listingsdocumentorpy-67"> 67</a>
+<a href="documentor.py.html#listingsdocumentorpy-68"> 68</a>
+<a href="documentor.py.html#listingsdocumentorpy-69"> 69</a>
+<a href="documentor.py.html#listingsdocumentorpy-70"> 70</a>
+<a href="documentor.py.html#listingsdocumentorpy-71"> 71</a>
+<a href="documentor.py.html#listingsdocumentorpy-72"> 72</a>
+<a href="documentor.py.html#listingsdocumentorpy-73"> 73</a>
+<a href="documentor.py.html#listingsdocumentorpy-74"> 74</a>
+<a href="documentor.py.html#listingsdocumentorpy-75"> 75</a>
+<a href="documentor.py.html#listingsdocumentorpy-76"> 76</a>
+<a href="documentor.py.html#listingsdocumentorpy-77"> 77</a>
+<a href="documentor.py.html#listingsdocumentorpy-78"> 78</a>
+<a href="documentor.py.html#listingsdocumentorpy-79"> 79</a>
+<a href="documentor.py.html#listingsdocumentorpy-80"> 80</a>
+<a href="documentor.py.html#listingsdocumentorpy-81"> 81</a>
+<a href="documentor.py.html#listingsdocumentorpy-82"> 82</a>
+<a href="documentor.py.html#listingsdocumentorpy-83"> 83</a>
+<a href="documentor.py.html#listingsdocumentorpy-84"> 84</a>
+<a href="documentor.py.html#listingsdocumentorpy-85"> 85</a>
+<a href="documentor.py.html#listingsdocumentorpy-86"> 86</a>
+<a href="documentor.py.html#listingsdocumentorpy-87"> 87</a>
+<a href="documentor.py.html#listingsdocumentorpy-88"> 88</a>
+<a href="documentor.py.html#listingsdocumentorpy-89"> 89</a>
+<a href="documentor.py.html#listingsdocumentorpy-90"> 90</a>
+<a href="documentor.py.html#listingsdocumentorpy-91"> 91</a>
+<a href="documentor.py.html#listingsdocumentorpy-92"> 92</a>
+<a href="documentor.py.html#listingsdocumentorpy-93"> 93</a>
+<a href="documentor.py.html#listingsdocumentorpy-94"> 94</a>
+<a href="documentor.py.html#listingsdocumentorpy-95"> 95</a>
+<a href="documentor.py.html#listingsdocumentorpy-96"> 96</a>
+<a href="documentor.py.html#listingsdocumentorpy-97"> 97</a>
+<a href="documentor.py.html#listingsdocumentorpy-98"> 98</a>
+<a href="documentor.py.html#listingsdocumentorpy-99"> 99</a>
+<a href="documentor.py.html#listingsdocumentorpy-100">100</a></pre></div></td><td class="code"><div class="code"><pre><a name="listingsdocumentorpy-1"></a><span class="c"># -*- coding: utf-8 -*-</span>
+<a name="listingsdocumentorpy-2"></a><span class="c">#</span>
+<a name="listingsdocumentorpy-3"></a><span class="c"># This file is part of Documentor</span>
+<a name="listingsdocumentorpy-4"></a><span class="c"># (https://github.com/diegosarmentero/documentor).</span>
+<a name="listingsdocumentorpy-5"></a><span class="c">#</span>
+<a name="listingsdocumentorpy-6"></a><span class="c"># Documentor is free software; you can redistribute it and/or modify</span>
+<a name="listingsdocumentorpy-7"></a><span class="c"># it under the terms of the GNU General Public License as published by</span>
+<a name="listingsdocumentorpy-8"></a><span class="c"># the Free Software Foundation; either version 3 of the License, or</span>
+<a name="listingsdocumentorpy-9"></a><span class="c"># any later version.</span>
+<a name="listingsdocumentorpy-10"></a><span class="c">#</span>
+<a name="listingsdocumentorpy-11"></a><span class="c"># Documentor is distributed in the hope that it will be useful,</span>
+<a name="listingsdocumentorpy-12"></a><span class="c"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<a name="listingsdocumentorpy-13"></a><span class="c"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<a name="listingsdocumentorpy-14"></a><span class="c"># GNU General Public License for more details.</span>
+<a name="listingsdocumentorpy-15"></a><span class="c">#</span>
+<a name="listingsdocumentorpy-16"></a><span class="c"># You should have received a copy of the GNU General Public License</span>
+<a name="listingsdocumentorpy-17"></a><span class="c"># along with Documentor; If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+<a name="listingsdocumentorpy-18"></a><span class="kn">import</span> <span class="nn">os</span>
+<a name="listingsdocumentorpy-19"></a><span class="kn">import</span> <span class="nn">subprocess</span>
+<a name="listingsdocumentorpy-20"></a>
+<a name="listingsdocumentorpy-21"></a><span class="kn">import</span> <span class="nn">analyzer</span>
+<a name="listingsdocumentorpy-22"></a><span class="kn">import</span> <span class="nn">arguments</span>
+<a name="listingsdocumentorpy-23"></a><span class="kn">import</span> <span class="nn">new_conf</span>
+<a name="listingsdocumentorpy-24"></a>
+<a name="listingsdocumentorpy-25"></a><span class="sd">"""Main file of Documentor."""</span>
+<a name="listingsdocumentorpy-26"></a>
+<a name="listingsdocumentorpy-27"></a>
+<a name="listingsdocumentorpy-28"></a><span class="k">def</span> <span class="nf">_get_project_name</span><span class="p">(</span><span class="n">projectname</span><span class="p">,</span> <span class="n">project</span><span class="p">):</span>
+<a name="listingsdocumentorpy-29"></a>    <span class="sd">"""Build a project name or use the one provided by the user."""</span>
+<a name="listingsdocumentorpy-30"></a>    <span class="k">if</span> <span class="n">projectname</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+<a name="listingsdocumentorpy-31"></a>        <span class="n">project_name</span> <span class="o">=</span> <span class="s">"documentor_</span><span class="si">%s</span><span class="s">"</span> <span class="o">%</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">project</span><span class="p">)</span>
+<a name="listingsdocumentorpy-32"></a>    <span class="k">else</span><span class="p">:</span>
+<a name="listingsdocumentorpy-33"></a>        <span class="n">project_name</span> <span class="o">=</span> <span class="n">projectname</span>
+<a name="listingsdocumentorpy-34"></a>    <span class="k">return</span> <span class="n">project_name</span>
+<a name="listingsdocumentorpy-35"></a>
+<a name="listingsdocumentorpy-36"></a>
+<a name="listingsdocumentorpy-37"></a><span class="k">def</span> <span class="nf">_deploy</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">deploy</span><span class="p">):</span>
+<a name="listingsdocumentorpy-38"></a>    <span class="sd">"""Deploy the site to Github Pages."""</span>
+<a name="listingsdocumentorpy-39"></a>    <span class="k">print</span> <span class="s">'</span><span class="se">\n</span><span class="s">Deploy...</span><span class="se">\n</span><span class="s">'</span>
+<a name="listingsdocumentorpy-40"></a>    <span class="n">output_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="s">'output'</span><span class="p">)</span>
+<a name="listingsdocumentorpy-41"></a>    <span class="n">commands</span> <span class="o">=</span> <span class="p">[</span>
+<a name="listingsdocumentorpy-42"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"init"</span><span class="p">],</span>
+<a name="listingsdocumentorpy-43"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"remote"</span><span class="p">,</span> <span class="s">"add"</span><span class="p">,</span> <span class="s">"origin"</span><span class="p">,</span> <span class="n">deploy</span><span class="p">],</span>
+<a name="listingsdocumentorpy-44"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"checkout"</span><span class="p">,</span> <span class="s">"--orphan"</span><span class="p">,</span> <span class="s">"gh-pages"</span><span class="p">],</span>
+<a name="listingsdocumentorpy-45"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"pull"</span><span class="p">,</span> <span class="n">deploy</span><span class="p">],</span>
+<a name="listingsdocumentorpy-46"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"rm"</span><span class="p">,</span> <span class="s">"-rf"</span><span class="p">,</span> <span class="s">"."</span><span class="p">],</span>
+<a name="listingsdocumentorpy-47"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"add"</span><span class="p">,</span> <span class="s">"."</span><span class="p">],</span>
+<a name="listingsdocumentorpy-48"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"commit"</span><span class="p">,</span> <span class="s">"-a"</span><span class="p">,</span> <span class="s">"-m"</span><span class="p">,</span> <span class="s">"'documentator deploy'"</span><span class="p">],</span>
+<a name="listingsdocumentorpy-49"></a>        <span class="p">[</span><span class="s">"git"</span><span class="p">,</span> <span class="s">"push"</span><span class="p">,</span> <span class="s">"origin"</span><span class="p">,</span> <span class="s">"gh-pages"</span><span class="p">]</span>
+<a name="listingsdocumentorpy-50"></a>    <span class="p">]</span>
+<a name="listingsdocumentorpy-51"></a>    <span class="k">for</span> <span class="n">command</span> <span class="ow">in</span> <span class="n">commands</span><span class="p">:</span>
+<a name="listingsdocumentorpy-52"></a>        <span class="n">process</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">(</span><span class="n">command</span><span class="p">,</span> <span class="n">cwd</span><span class="o">=</span><span class="n">output_folder</span><span class="p">)</span>
+<a name="listingsdocumentorpy-53"></a>        <span class="n">process</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+<a name="listingsdocumentorpy-54"></a>    <span class="k">print</span> <span class="s">'</span><span class="se">\n</span><span class="s">Deploy Complete!</span><span class="se">\n</span><span class="s">'</span>
+<a name="listingsdocumentorpy-55"></a>
+<a name="listingsdocumentorpy-56"></a>
+<a name="listingsdocumentorpy-57"></a><span class="k">def</span> <span class="nf">_serve</span><span class="p">(</span><span class="n">output</span><span class="p">):</span>
+<a name="listingsdocumentorpy-58"></a>    <span class="sd">"""Serve the application in localhost."""</span>
+<a name="listingsdocumentorpy-59"></a>    <span class="n">doc_folder</span> <span class="o">=</span> <span class="s">'.'</span>
+<a name="listingsdocumentorpy-60"></a>    <span class="k">if</span> <span class="n">output</span><span class="p">:</span>
+<a name="listingsdocumentorpy-61"></a>        <span class="n">doc_folder</span> <span class="o">=</span> <span class="n">output</span>
+<a name="listingsdocumentorpy-62"></a>    <span class="n">doc_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">doc_folder</span><span class="p">)</span>
+<a name="listingsdocumentorpy-63"></a>    <span class="n">process</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">([</span><span class="s">"nikola"</span><span class="p">,</span> <span class="s">"serve"</span><span class="p">],</span> <span class="n">cwd</span><span class="o">=</span><span class="n">doc_folder</span><span class="p">)</span>
+<a name="listingsdocumentorpy-64"></a>    <span class="n">process</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+<a name="listingsdocumentorpy-65"></a>
+<a name="listingsdocumentorpy-66"></a>
+<a name="listingsdocumentorpy-67"></a><span class="k">def</span> <span class="nf">document</span><span class="p">():</span>
+<a name="listingsdocumentorpy-68"></a>    <span class="sd">"""Run the commands selected by the user with Documentor."""</span>
+<a name="listingsdocumentorpy-69"></a>    <span class="n">project</span><span class="p">,</span> <span class="n">projectname</span><span class="p">,</span> <span class="n">output</span><span class="p">,</span> <span class="n">email</span><span class="p">,</span> <span class="n">serve</span><span class="p">,</span> <span class="n">deploy</span> <span class="o">=</span> <span class="n">arguments</span><span class="o">.</span><span class="n">parse</span><span class="p">()</span>
+<a name="listingsdocumentorpy-70"></a>    <span class="k">if</span> <span class="n">deploy</span><span class="p">:</span>
+<a name="listingsdocumentorpy-71"></a>        <span class="n">output</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
+<a name="listingsdocumentorpy-72"></a>        <span class="n">_deploy</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">deploy</span><span class="p">)</span>
+<a name="listingsdocumentorpy-73"></a>        <span class="k">return</span>
+<a name="listingsdocumentorpy-74"></a>    <span class="k">elif</span> <span class="n">serve</span><span class="p">:</span>
+<a name="listingsdocumentorpy-75"></a>        <span class="n">_serve</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
+<a name="listingsdocumentorpy-76"></a>        <span class="k">return</span>
+<a name="listingsdocumentorpy-77"></a>
+<a name="listingsdocumentorpy-78"></a>    <span class="k">if</span> <span class="n">project</span> <span class="ow">is</span> <span class="bp">None</span> <span class="ow">or</span> <span class="n">output</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+<a name="listingsdocumentorpy-79"></a>            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">"Invalid arguments, empty args are not allowed"</span><span class="p">)</span>
+<a name="listingsdocumentorpy-80"></a>
+<a name="listingsdocumentorpy-81"></a>    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">project</span><span class="p">)</span> <span class="ow">and</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">output</span><span class="p">):</span>
+<a name="listingsdocumentorpy-82"></a>        <span class="n">project</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">project</span><span class="p">)</span>
+<a name="listingsdocumentorpy-83"></a>        <span class="n">project_name</span> <span class="o">=</span> <span class="n">_get_project_name</span><span class="p">(</span><span class="n">projectname</span><span class="p">,</span> <span class="n">project</span><span class="p">)</span>
+<a name="listingsdocumentorpy-84"></a>        <span class="n">output</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
+<a name="listingsdocumentorpy-85"></a>        <span class="n">process</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">([</span><span class="s">"nikola"</span><span class="p">,</span> <span class="s">"init"</span><span class="p">,</span> <span class="n">project_name</span><span class="p">],</span> <span class="n">cwd</span><span class="o">=</span><span class="n">output</span><span class="p">)</span>
+<a name="listingsdocumentorpy-86"></a>        <span class="n">process</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+<a name="listingsdocumentorpy-87"></a>        <span class="n">output_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">project_name</span><span class="p">)</span>
+<a name="listingsdocumentorpy-88"></a>        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">output_folder</span><span class="p">):</span>
+<a name="listingsdocumentorpy-89"></a>            <span class="n">new_conf</span><span class="o">.</span><span class="n">create_new_configuration</span><span class="p">(</span><span class="n">output_folder</span><span class="p">,</span>
+<a name="listingsdocumentorpy-90"></a>                                              <span class="n">project_name</span><span class="p">,</span> <span class="n">email</span><span class="p">)</span>
+<a name="listingsdocumentorpy-91"></a>            <span class="n">worker</span> <span class="o">=</span> <span class="n">analyzer</span><span class="o">.</span><span class="n">Analyzer</span><span class="p">(</span><span class="n">project</span><span class="p">,</span> <span class="n">output_folder</span><span class="p">,</span> <span class="n">project_name</span><span class="p">)</span>
+<a name="listingsdocumentorpy-92"></a>            <span class="n">worker</span><span class="o">.</span><span class="n">scan</span><span class="p">()</span>
+<a name="listingsdocumentorpy-93"></a>            <span class="n">process</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span><span class="p">([</span><span class="s">"nikola"</span><span class="p">,</span> <span class="s">"build"</span><span class="p">],</span> <span class="n">cwd</span><span class="o">=</span><span class="n">output_folder</span><span class="p">)</span>
+<a name="listingsdocumentorpy-94"></a>            <span class="n">process</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
+<a name="listingsdocumentorpy-95"></a>        <span class="k">else</span><span class="p">:</span>
+<a name="listingsdocumentorpy-96"></a>            <span class="k">print</span> <span class="s">'Something went wrong and output folder could not be created'</span>
+<a name="listingsdocumentorpy-97"></a>
+<a name="listingsdocumentorpy-98"></a>
+<a name="listingsdocumentorpy-99"></a><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
+<a name="listingsdocumentorpy-100"></a>    <span class="n">document</span><span class="p">()</span>
+</pre></div>
+</td></tr></table>
+
+    </div>
+    </div>
+    <!--End of body content-->
+</div>
+<div class="footerbox">
+    Contents © 2013         <a href="mailto:None">Documentor</a> - Powered by         <a href="http://nikola.ralsina.com.ar">Nikola</a> and <a href="https://github.com/diegosarmentero/documentor">Documentor</a>
+</div>
+
+
+
+            <script src="../assets/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+            <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+</body>
+</html>

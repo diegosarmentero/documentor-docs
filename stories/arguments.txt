@@ -1,0 +1,52 @@
+.. link:
+.. description:
+.. tags:
+.. date: 2013/08/16 00:00:00
+.. title: Documentor
+.. slug: arguments
+
+.. class:: alert alert-info pull-top
+
+.. contents::
+
+
+*Module:* `arguments.py </listings/arguments.py.html>`_ API
+=============================================================
+
+No description.
+
+
+
+*Imports:*
+------------
+- `argparse </listings/arguments.py.html#21>`_
+
+- `__future__.absolute_import </listings/arguments.py.html#19>`_
+
+
+
+*Global Attributes:*
+----------------------
+- `epilog [at ln:27] </listings/arguments.py.html#27>`_
+
+- `usage [at ln:24] </listings/arguments.py.html#24>`_
+
+
+----
+
+
+*Global Functions:*
+---------------------
+
+*Function:* `parse() [at ln:32] </listings/arguments.py.html#listingsargumentspy-32>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def parse():
+
+| Parse the arguments received from the command line.
+
+
+
+

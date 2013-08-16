@@ -1,0 +1,48 @@
+.. link:
+.. description:
+.. tags:
+.. date: 2013/08/16 00:00:00
+.. title: Documentor
+.. slug: new_conf
+
+.. class:: alert alert-info pull-top
+
+.. contents::
+
+
+*Module:* `new_conf.py </listings/new_conf.py.html>`_ API
+===========================================================
+
+No description.
+
+
+
+*Imports:*
+------------
+- `os </listings/new_conf.py.html#18>`_
+
+
+
+*Global Attributes:*
+----------------------
+- `NEW_CONFIGURATION [at ln:22] </listings/new_conf.py.html#22>`_
+
+
+----
+
+
+*Global Functions:*
+---------------------
+
+*Function:* `create_new_configuration(output, projectname, email) [at ln:45] </listings/new_conf.py.html#listingsnew_confpy-45>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+       def create_new_configuration(output, projectname, email):
+
+| Append some extra configurations to the conf.py file from Nikola.
+
+
+
+
